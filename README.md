@@ -65,20 +65,6 @@ Task B1/
   - `downloadSubmissions()`
   - `JSON.parse(localStorage.getItem('falconSubmissions'))`
 
-## 🌐 GitHub Pages Deployment
-
-1. Push to GitHub repository
-2. Go to repository settings → Pages
-3. Select `main` branch, `/` folder
-4. Visit `https://yourusername.github.io/repo-name/`
-
-## 🔁 Optional: Formspree Integration
-
-1. Sign up at https://formspree.io
-2. Create a new form and get ID
-3. Update `<form id="contactForm" action="https://formspree.io/f/YOUR_ID" method="POST">` in `index.html`
-4. Optional: add `_next` hidden field if redirecting to `thank-you.html`
-
 ## 🧾 Notes
 
 - This static implementation works without server-side code.
